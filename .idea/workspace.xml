@@ -1,32 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0734da9-d109-4102-acee-48e6d51c4a68" name="Changes" comment="" />
+    <list default="true" id="e0734da9-d109-4102-acee-48e6d51c4a68" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/BackTester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BackTester.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/backtester_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/backtester_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/exchange_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/exchange_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mt5_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/mt5_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/multi_exchange_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/multi_exchange_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connectors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/connectors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connectors/backtester_connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/connectors/backtester_connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connectors/binance_connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/connectors/binance_connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connectors/mt5_connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/connectors/mt5_connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/executer.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/executer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_source/mt5/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_source/mt5/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_source/mt5/fetch_data_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_source/mt5/fetch_data_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/base_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/base_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/exp_moving_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/exp_moving_average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_strategy.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mertcetkay"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mertcetkay/BackTester2.git",
+    "accountId": "a888f051-7b73-476c-af6e-8b8f214fad55"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2v7Z1dbA3SUfaZqS5EKihgF2a8l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.fetch_data_main.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/mertc/PycharmProjects/BackTester/AskGpt-1.2.zip",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mertc\PycharmProjects\BackTester\data_source\mt5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mertc\PycharmProjects\BackTester\data" />
+      <recent name="C:\Users\mertc\PycharmProjects\BackTester\data_source\mt5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="fetch_data_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BackTester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/data_source/mt5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data_source/mt5/fetch_data_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BackTester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.fetch_data_main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +161,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743497859095</updated>
-      <workItem from="1743497860170" duration="6000" />
+      <workItem from="1743497860170" duration="12249000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BackTester$main.coverage" NAME="main Coverage Results" MODIFIED="1743510229332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BackTester$fetch_data_main.coverage" NAME="fetch_data_main Coverage Results" MODIFIED="1743505115526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data_source/mt5" />
   </component>
 </project>

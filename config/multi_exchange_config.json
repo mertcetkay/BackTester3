@@ -1,0 +1,42 @@
+{
+  "environment": "exchange",
+  "exchanges": [
+    {
+      "name": "MetaTrader5",
+      "login": "YOUR_MT5_LOGIN",
+      "password": "YOUR_MT5_PASSWORD",
+      "server": "YOUR_MT5_SERVER",
+      "terminal_path": "C:/Program Files/MetaTrader5/terminal64.exe",
+      "trading": {
+        "symbol": "EURUSD",
+        "order_type": "market",
+        "volume": 0.1,
+        "slippage": 3,
+        "magic_number": 123456
+      }
+    },
+    {
+      "name": "Binance",
+      "api_key": "YOUR_API_KEY",
+      "api_secret": "YOUR_API_SECRET",
+      "base_url": "https://api.binance.com",
+      "trading": {
+        "symbol": "BTCUSDT",
+        "order_type": "market",
+        "quantity": 0.001,
+        "leverage": 1
+      }
+    }
+  ],
+  "strategy": {
+    "name": "moving_average_crossover",
+    "parameters": {
+      "short_window": 40,
+      "long_window": 100
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/multi_exchange.log"
+  }
+}

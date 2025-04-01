@@ -2,7 +2,7 @@ import os
 import json
 
 import pandas as pd
-from data_source.mt5.mt5 import MT5Exchange
+from data.data_source.mt5.mt5 import MT5Exchange
 
 
 def save_rates_to_csv(symbol, timeframe, rates, base_path=None):
@@ -11,7 +11,7 @@ def save_rates_to_csv(symbol, timeframe, rates, base_path=None):
 
     if base_path is None:
         # 'historical' klasörü fetch_data_main.py'nin bulunduğu yerin içinde olsun
-        base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../historic_data")
+        base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../historic_data")
 
     folder_path = os.path.join(base_path, symbol)
     os.makedirs(folder_path, exist_ok=True)

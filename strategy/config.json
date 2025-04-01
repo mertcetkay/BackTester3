@@ -1,0 +1,8 @@
+{
+    "csv_file": "../data/historic_data/EURUSD/M1.csv",
+    "initial_balance": 200000,
+    "position_size": 20,
+    "pip_value": 10,
+    "short_ema_period": 14,
+    "long_ema_period": 45
+}

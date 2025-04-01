@@ -2,9 +2,9 @@
   "environment": "backtest",
   "data": {
     "source": "csv",
-    "file_path": "data/historical_data.csv",
-    "date_column": "Date",
-    "price_column": "Close"
+    "file_path": "data/historic_data/EURUSD/M5.csv",
+    "date_column": "time",
+    "price_column": "close"
   },
   "backtester": {
     "initial_capital": 200000,
