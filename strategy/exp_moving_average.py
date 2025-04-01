@@ -7,8 +7,6 @@ class MovingAverageStrategy(bt.Strategy):
         """
         Hareketli ortalama stratejisinin başlangıç ayarlarını yapar.
         """
-
-
         self.short_window = 40  # Kısa dönem için pencere boyutu
         self.long_window = 100  # Uzun dönem için pencere boyutu
         self.position = 0  # Mevcut pozisyon: 0 = pozisyon yok, 1 = alım, -1 = satış
@@ -17,7 +15,6 @@ class MovingAverageStrategy(bt.Strategy):
     def on_data(self, new_data):
         """
         Yeni gelen veriyi değerlendirir ve hareketli ortalamaları hesaplar.
-
         Args:
             new_data (pandas.DataFrame): 'close' sütununu içeren fiyat verileri.
         """
