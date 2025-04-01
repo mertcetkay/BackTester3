@@ -1,0 +1,26 @@
+{
+  "environment": "backtest",
+  "data": {
+    "source": "csv",
+    "file_path": "data/historical_data.csv",
+    "date_column": "Date",
+    "price_column": "Close"
+  },
+  "backtester": {
+    "initial_capital": 200000,
+    "commission": 0.001,
+    "start_date": "2022-01-01",
+    "end_date": "2022-12-31"
+  },
+  "strategy": {
+    "name": "moving_average_crossover",
+    "parameters": {
+      "short_window": 40,
+      "long_window": 100
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/backtest.log"
+  }
+}

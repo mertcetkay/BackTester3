@@ -1,0 +1,18 @@
+{
+  "exchange": "MT5",
+  "mt5": {
+    "login": 91314402,
+    "password": "D_7fAmJw",
+    "server": "MetaQuotes-Demo",
+    "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+
+
+    "symbols": ["EURUSD"],
+    "timeframes": ["M1"],
+    "bars": 30000,
+
+    "_symbols": ["EURUSD", "GBPUSD"],
+    "_timeframes" : ["M5", "M15", "H1"],
+    "_bars": 20000
+  }
+}
